@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tambah Data ke API</title>
+</head>
+<body>
+
+<h2>Form Tambah Data</h2>
+
+<form id="addMovieForm">
+    <label for="title">Judul:</label><br>
+    <input type="text" id="title" name="title"><br>
+    <label for="director">Sutradara:</label><br>
+    <input type="text" id="director" name="director"><br>
+    <label for="year">Tahun:</label><br>
+    <input type="number" id="year" name="year"><br><br>
+    <button type="submit">Tambah</button>
+</form>
+    <br>
+    <a href="index.html">
+        <button>Kembali ke Index</button>
+    </a>
+
+
+<hr>
+
+<h2>Data dari API:</h2>
+
+<ul id="apiData"></ul>
+
+<script src="assets/js/api.js"></script>
+</body>
+</html>
